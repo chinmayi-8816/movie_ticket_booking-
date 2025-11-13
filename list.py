@@ -1,0 +1,11 @@
+items = ['chips','chikki','sweets','chocolates','meat']
+items.insert(1,'soap')
+items.insert(5,'chicken')
+items.insert(10,'Mutton')
+items.insert(0,'fish')
+items.append('veg-curry')
+items.remove('chicken')
+items.pop(1)
+items.remove('sweets')
+items[1] = ('paneer')
+print(items.pop(1))
